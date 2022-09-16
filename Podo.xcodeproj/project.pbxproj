@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FECFC3028D4053A00ECF8CB /* PodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC2F28D4053A00ECF8CB /* PodoApp.swift */; };
+		4FECFC3228D4053A00ECF8CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC3128D4053A00ECF8CB /* ContentView.swift */; };
+		4FECFC3428D4054600ECF8CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FECFC3328D4054600ECF8CB /* Assets.xcassets */; };
+		4FECFC3728D4054600ECF8CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FECFC3628D4054600ECF8CB /* Preview Assets.xcassets */; };
+		4FECFC4128D4054600ECF8CB /* PodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC4028D4054600ECF8CB /* PodoTests.swift */; };
+		4FECFC4B28D4054600ECF8CB /* PodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC4A28D4054600ECF8CB /* PodoUITests.swift */; };
+		4FECFC4D28D4054600ECF8CB /* PodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC4C28D4054600ECF8CB /* PodoUITestsLaunchTests.swift */; };
+		4FECFC6128D4104A00ECF8CB /* AlbumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC6028D4104A00ECF8CB /* AlbumData.swift */; };
+		4FECFC6328D4202D00ECF8CB /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC6228D4202D00ECF8CB /* PhotoManager.swift */; };
+		4FECFC6528D4204900ECF8CB /* AssetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC6428D4204900ECF8CB /* AssetInfo.swift */; };
+		4FECFC6728D4207500ECF8CB /* PhotoManager+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC6628D4207500ECF8CB /* PhotoManager+Location.swift */; };
+		4FECFC6A28D4209D00ECF8CB /* PHAsset+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC6928D4209D00ECF8CB /* PHAsset+Extension.swift */; };
+		4FECFC6C28D420C700ECF8CB /* Bundle+PhotoAlbumBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC6B28D420C700ECF8CB /* Bundle+PhotoAlbumBrowser.swift */; };
+		4FECFC6E28D4219C00ECF8CB /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC6D28D4219C00ECF8CB /* PhotoCell.swift */; };
+		4FECFC7028D421CE00ECF8CB /* PhotoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC6F28D421CE00ECF8CB /* PhotoList.swift */; };
+		4FECFC7228D43ADF00ECF8CB /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC7128D43ADF00ECF8CB /* UInt64+Extension.swift */; };
+		4FECFC7428D43AE900ECF8CB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC7328D43AE900ECF8CB /* String+Extension.swift */; };
+		4FECFC7628D43AEF00ECF8CB /* CGSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC7528D43AEF00ECF8CB /* CGSize+Extension.swift */; };
+		4FECFC7928D43B8800ECF8CB /* LivePhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC7828D43B8800ECF8CB /* LivePhotoView.swift */; };
+		4FECFC7B28D43BDF00ECF8CB /* TextOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC7A28D43BDF00ECF8CB /* TextOverlay.swift */; };
+		4FECFC7D28D43BE500ECF8CB /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC7C28D43BE500ECF8CB /* Badge.swift */; };
+		4FECFC7F28D43BED00ECF8CB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECFC7E28D43BED00ECF8CB /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FECFC3D28D4054600ECF8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FECFC2428D4053A00ECF8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FECFC2B28D4053A00ECF8CB;
+			remoteInfo = Podo;
+		};
+		4FECFC4728D4054600ECF8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FECFC2428D4053A00ECF8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FECFC2B28D4053A00ECF8CB;
+			remoteInfo = Podo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FECFC2C28D4053A00ECF8CB /* Podo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Podo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FECFC2F28D4053A00ECF8CB /* PodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodoApp.swift; sourceTree = "<group>"; };
+		4FECFC3128D4053A00ECF8CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4FECFC3328D4054600ECF8CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FECFC3628D4054600ECF8CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4FECFC3C28D4054600ECF8CB /* PodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FECFC4028D4054600ECF8CB /* PodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodoTests.swift; sourceTree = "<group>"; };
+		4FECFC4628D4054600ECF8CB /* PodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FECFC4A28D4054600ECF8CB /* PodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodoUITests.swift; sourceTree = "<group>"; };
+		4FECFC4C28D4054600ECF8CB /* PodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FECFC6028D4104A00ECF8CB /* AlbumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumData.swift; sourceTree = "<group>"; };
+		4FECFC6228D4202D00ECF8CB /* PhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		4FECFC6428D4204900ECF8CB /* AssetInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetInfo.swift; sourceTree = "<group>"; };
+		4FECFC6628D4207500ECF8CB /* PhotoManager+Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoManager+Location.swift"; sourceTree = "<group>"; };
+		4FECFC6928D4209D00ECF8CB /* PHAsset+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PHAsset+Extension.swift"; sourceTree = "<group>"; };
+		4FECFC6B28D420C700ECF8CB /* Bundle+PhotoAlbumBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+PhotoAlbumBrowser.swift"; sourceTree = "<group>"; };
+		4FECFC6D28D4219C00ECF8CB /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		4FECFC6F28D421CE00ECF8CB /* PhotoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoList.swift; sourceTree = "<group>"; };
+		4FECFC7128D43ADF00ECF8CB /* UInt64+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UInt64+Extension.swift"; sourceTree = "<group>"; };
+		4FECFC7328D43AE900ECF8CB /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		4FECFC7528D43AEF00ECF8CB /* CGSize+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Extension.swift"; sourceTree = "<group>"; };
+		4FECFC7828D43B8800ECF8CB /* LivePhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePhotoView.swift; sourceTree = "<group>"; };
+		4FECFC7A28D43BDF00ECF8CB /* TextOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOverlay.swift; sourceTree = "<group>"; };
+		4FECFC7C28D43BE500ECF8CB /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		4FECFC7E28D43BED00ECF8CB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		4FECFC8228D43F2400ECF8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FECFC2928D4053A00ECF8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FECFC3928D4054600ECF8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FECFC4328D4054600ECF8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FECFC2328D4053A00ECF8CB = {
+			isa = PBXGroup;
+			children = (
+				4FECFC2E28D4053A00ECF8CB /* Podo */,
+				4FECFC3F28D4054600ECF8CB /* PodoTests */,
+				4FECFC4928D4054600ECF8CB /* PodoUITests */,
+				4FECFC2D28D4053A00ECF8CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FECFC2D28D4053A00ECF8CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FECFC2C28D4053A00ECF8CB /* Podo.app */,
+				4FECFC3C28D4054600ECF8CB /* PodoTests.xctest */,
+				4FECFC4628D4054600ECF8CB /* PodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FECFC2E28D4053A00ECF8CB /* Podo */ = {
+			isa = PBXGroup;
+			children = (
+				4FECFC8228D43F2400ECF8CB /* Info.plist */,
+				4FECFC6828D4209300ECF8CB /* Extension */,
+				4FECFC5B28D405A100ECF8CB /* Resources */,
+				4FECFC5A28D4059F00ECF8CB /* Model */,
+				4FECFC5928D4059B00ECF8CB /* Views */,
+				4FECFC2F28D4053A00ECF8CB /* PodoApp.swift */,
+			);
+			path = Podo;
+			sourceTree = "<group>";
+		};
+		4FECFC3528D4054600ECF8CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4FECFC3628D4054600ECF8CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FECFC3F28D4054600ECF8CB /* PodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FECFC4028D4054600ECF8CB /* PodoTests.swift */,
+			);
+			path = PodoTests;
+			sourceTree = "<group>";
+		};
+		4FECFC4928D4054600ECF8CB /* PodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FECFC4A28D4054600ECF8CB /* PodoUITests.swift */,
+				4FECFC4C28D4054600ECF8CB /* PodoUITestsLaunchTests.swift */,
+			);
+			path = PodoUITests;
+			sourceTree = "<group>";
+		};
+		4FECFC5928D4059B00ECF8CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FECFC7728D43B7D00ECF8CB /* Helper */,
+				4FECFC3128D4053A00ECF8CB /* ContentView.swift */,
+				4FECFC6D28D4219C00ECF8CB /* PhotoCell.swift */,
+				4FECFC6F28D421CE00ECF8CB /* PhotoList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4FECFC5A28D4059F00ECF8CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FECFC6028D4104A00ECF8CB /* AlbumData.swift */,
+				4FECFC6228D4202D00ECF8CB /* PhotoManager.swift */,
+				4FECFC6628D4207500ECF8CB /* PhotoManager+Location.swift */,
+				4FECFC6428D4204900ECF8CB /* AssetInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4FECFC5B28D405A100ECF8CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4FECFC3528D4054600ECF8CB /* Preview Content */,
+				4FECFC3328D4054600ECF8CB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4FECFC6828D4209300ECF8CB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4FECFC6928D4209D00ECF8CB /* PHAsset+Extension.swift */,
+				4FECFC6B28D420C700ECF8CB /* Bundle+PhotoAlbumBrowser.swift */,
+				4FECFC7128D43ADF00ECF8CB /* UInt64+Extension.swift */,
+				4FECFC7528D43AEF00ECF8CB /* CGSize+Extension.swift */,
+				4FECFC7328D43AE900ECF8CB /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4FECFC7728D43B7D00ECF8CB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4FECFC7828D43B8800ECF8CB /* LivePhotoView.swift */,
+				4FECFC7A28D43BDF00ECF8CB /* TextOverlay.swift */,
+				4FECFC7C28D43BE500ECF8CB /* Badge.swift */,
+				4FECFC7E28D43BED00ECF8CB /* MapView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FECFC2B28D4053A00ECF8CB /* Podo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FECFC5028D4054600ECF8CB /* Build configuration list for PBXNativeTarget "Podo" */;
+			buildPhases = (
+				4FECFC2828D4053A00ECF8CB /* Sources */,
+				4FECFC2928D4053A00ECF8CB /* Frameworks */,
+				4FECFC2A28D4053A00ECF8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Podo;
+			productName = Podo;
+			productReference = 4FECFC2C28D4053A00ECF8CB /* Podo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FECFC3B28D4054600ECF8CB /* PodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FECFC5328D4054600ECF8CB /* Build configuration list for PBXNativeTarget "PodoTests" */;
+			buildPhases = (
+				4FECFC3828D4054600ECF8CB /* Sources */,
+				4FECFC3928D4054600ECF8CB /* Frameworks */,
+				4FECFC3A28D4054600ECF8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FECFC3E28D4054600ECF8CB /* PBXTargetDependency */,
+			);
+			name = PodoTests;
+			productName = PodoTests;
+			productReference = 4FECFC3C28D4054600ECF8CB /* PodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FECFC4528D4054600ECF8CB /* PodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FECFC5628D4054600ECF8CB /* Build configuration list for PBXNativeTarget "PodoUITests" */;
+			buildPhases = (
+				4FECFC4228D4054600ECF8CB /* Sources */,
+				4FECFC4328D4054600ECF8CB /* Frameworks */,
+				4FECFC4428D4054600ECF8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FECFC4828D4054600ECF8CB /* PBXTargetDependency */,
+			);
+			name = PodoUITests;
+			productName = PodoUITests;
+			productReference = 4FECFC4628D4054600ECF8CB /* PodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FECFC2428D4053A00ECF8CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4FECFC2B28D4053A00ECF8CB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					4FECFC3B28D4054600ECF8CB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4FECFC2B28D4053A00ECF8CB;
+					};
+					4FECFC4528D4054600ECF8CB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4FECFC2B28D4053A00ECF8CB;
+					};
+				};
+			};
+			buildConfigurationList = 4FECFC2728D4053A00ECF8CB /* Build configuration list for PBXProject "Podo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FECFC2328D4053A00ECF8CB;
+			productRefGroup = 4FECFC2D28D4053A00ECF8CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FECFC2B28D4053A00ECF8CB /* Podo */,
+				4FECFC3B28D4054600ECF8CB /* PodoTests */,
+				4FECFC4528D4054600ECF8CB /* PodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FECFC2A28D4053A00ECF8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FECFC3728D4054600ECF8CB /* Preview Assets.xcassets in Resources */,
+				4FECFC3428D4054600ECF8CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FECFC3A28D4054600ECF8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FECFC4428D4054600ECF8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FECFC2828D4053A00ECF8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FECFC6528D4204900ECF8CB /* AssetInfo.swift in Sources */,
+				4FECFC6728D4207500ECF8CB /* PhotoManager+Location.swift in Sources */,
+				4FECFC6328D4202D00ECF8CB /* PhotoManager.swift in Sources */,
+				4FECFC7B28D43BDF00ECF8CB /* TextOverlay.swift in Sources */,
+				4FECFC6A28D4209D00ECF8CB /* PHAsset+Extension.swift in Sources */,
+				4FECFC7428D43AE900ECF8CB /* String+Extension.swift in Sources */,
+				4FECFC7928D43B8800ECF8CB /* LivePhotoView.swift in Sources */,
+				4FECFC6128D4104A00ECF8CB /* AlbumData.swift in Sources */,
+				4FECFC3228D4053A00ECF8CB /* ContentView.swift in Sources */,
+				4FECFC7F28D43BED00ECF8CB /* MapView.swift in Sources */,
+				4FECFC7D28D43BE500ECF8CB /* Badge.swift in Sources */,
+				4FECFC7228D43ADF00ECF8CB /* UInt64+Extension.swift in Sources */,
+				4FECFC7028D421CE00ECF8CB /* PhotoList.swift in Sources */,
+				4FECFC6E28D4219C00ECF8CB /* PhotoCell.swift in Sources */,
+				4FECFC7628D43AEF00ECF8CB /* CGSize+Extension.swift in Sources */,
+				4FECFC6C28D420C700ECF8CB /* Bundle+PhotoAlbumBrowser.swift in Sources */,
+				4FECFC3028D4053A00ECF8CB /* PodoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FECFC3828D4054600ECF8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FECFC4128D4054600ECF8CB /* PodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FECFC4228D4054600ECF8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FECFC4D28D4054600ECF8CB /* PodoUITestsLaunchTests.swift in Sources */,
+				4FECFC4B28D4054600ECF8CB /* PodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FECFC3E28D4054600ECF8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FECFC2B28D4053A00ECF8CB /* Podo */;
+			targetProxy = 4FECFC3D28D4054600ECF8CB /* PBXContainerItemProxy */;
+		};
+		4FECFC4828D4054600ECF8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FECFC2B28D4053A00ECF8CB /* Podo */;
+			targetProxy = 4FECFC4728D4054600ECF8CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4FECFC4E28D4054600ECF8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FECFC4F28D4054600ECF8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FECFC5128D4054600ECF8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Podo/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = 2H7EM56K2Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Podo/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app requires access to the photo library on the device in order to display photos from an album.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeyuno.Podo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FECFC5228D4054600ECF8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Podo/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = 2H7EM56K2Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Podo/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app requires access to the photo library on the device in order to display photos from an album.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeyuno.Podo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FECFC5428D4054600ECF8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H7EM56K2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeyuno.PodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podo.app/Podo";
+			};
+			name = Debug;
+		};
+		4FECFC5528D4054600ECF8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H7EM56K2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeyuno.PodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podo.app/Podo";
+			};
+			name = Release;
+		};
+		4FECFC5728D4054600ECF8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H7EM56K2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeyuno.PodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Podo;
+			};
+			name = Debug;
+		};
+		4FECFC5828D4054600ECF8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H7EM56K2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeyuno.PodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Podo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FECFC2728D4053A00ECF8CB /* Build configuration list for PBXProject "Podo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FECFC4E28D4054600ECF8CB /* Debug */,
+				4FECFC4F28D4054600ECF8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FECFC5028D4054600ECF8CB /* Build configuration list for PBXNativeTarget "Podo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FECFC5128D4054600ECF8CB /* Debug */,
+				4FECFC5228D4054600ECF8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FECFC5328D4054600ECF8CB /* Build configuration list for PBXNativeTarget "PodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FECFC5428D4054600ECF8CB /* Debug */,
+				4FECFC5528D4054600ECF8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FECFC5628D4054600ECF8CB /* Build configuration list for PBXNativeTarget "PodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FECFC5728D4054600ECF8CB /* Debug */,
+				4FECFC5828D4054600ECF8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FECFC2428D4053A00ECF8CB /* Project object */;
+}
