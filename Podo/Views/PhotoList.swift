@@ -37,9 +37,10 @@ struct PhotoList: View {
                         )
                         .id(index)
                         .onTapGesture {
-                            withAnimation(.easeInOut(duration: 0.4)) {
-                                assets[index].isOverlayVisible.toggle()
-                            }
+                            // TODO: 이미지 선택
+//                            withAnimation(.easeInOut(duration: 0.4)) {
+//                                assets[index].isOverlayVisible.toggle()
+//                            }
                         }
                     }
                 }

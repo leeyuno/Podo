@@ -92,19 +92,19 @@ struct PhotoCell: View {
                     .padding()
             }
 
-            if let date = assetInfo.asset?.creationDate {
-                TextOverlay(
-                    title: formatter.string(from: date),
-                    subtitle: assetInfo.locationName,
-                    moreText: imageDescription,
-                    coordinate: assetInfo.asset?.location?.coordinate,
-                    size: size,
-                    systemImageName: badgeImageName
-                )
-                .frame(width: size.width)
-                .opacity(assetInfo.isOverlayVisible ? 1 : 0)
-                .transition(.opacity)
-            }
+//            if let date = assetInfo.asset?.creationDate {
+//                TextOverlay(
+//                    title: formatter.string(from: date),
+//                    subtitle: assetInfo.locationName,
+//                    moreText: imageDescription,
+//                    coordinate: assetInfo.asset?.location?.coordinate,
+//                    size: size,
+//                    systemImageName: badgeImageName
+//                )
+//                .frame(width: size.width)
+//                .opacity(assetInfo.isOverlayVisible ? 1 : 0)
+//                .transition(.opacity)
+//            }
         }
     }
 }
